@@ -14,7 +14,6 @@ const userSchema = new mongoose.Schema({
     max: 255,
   },
   contact: {
-    // Corrected typo from 'constact' to 'contact'
     type: String,
     required: true,
     min: 6,
